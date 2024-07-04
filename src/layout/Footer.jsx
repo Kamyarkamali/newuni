@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="bg-gray-200 relative max-w-[1420px] mx-auto p-3">
-      <div className="w-full relative h-[40px]  bg-[#ECE9D8]"></div>
+    <div className='absolute bottom-0 bg-[#ece9d8] w-full -z-10 left-0 p-4'>
+      
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

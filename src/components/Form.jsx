@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import khoroj from "../assets/images/khoroj.png";
 import vorod from "../assets/images/vorod.png";
+import { info } from "autoprefixer";
 
 function Form() {
   const [captchaValue, setCaptchaValue] = useState(null);
@@ -9,6 +10,7 @@ function Form() {
     email: "",
     password: "",
   });
+  console.log(Info)
   const handleUserChange = (e) => {
     setInfo({
       ...Info,
@@ -19,7 +21,9 @@ function Form() {
   const submitHandeler = (event) => {
     event.preventDefault();
     setloading({ status: true, value: false });
-
+if(Info.email ==="" || Info.password === ""){
+  alert("شناسه کاربری يا گذرواژه اشتباه است.")
+}
     if (Info.email === "402461081" && Info.password === "2791025065") {
       const token = btoa(`${Info.email}:${Info.password}`);
       localStorage.setItem("token", token);
@@ -27,7 +31,6 @@ function Form() {
       window.location.href = "/sinajabbari";
     } else {
       setloading({ status: true, value: false });
-      alert("شناسه کاربری یا گذرواژه اشتباه است.");
     }
   };
 
@@ -116,8 +119,8 @@ function Form() {
                 className="border-[1px] outline-none text-[12px] w-[130px] mr-[6.9rem] border-gray-400 h-[18px]"
               />
               <div className="absolute left-[-8rem] top-[-1rem] bg-[#f9f8f4] flex justify-center p-3">
-                <div className="bg-[#f9f8f4] border-[1px] border-gray-400 w-full p-4">
-                  <svg width="100" height="30" className="px-2">
+                <div className="bg-[#f9f8f4] border-[1px] border-gray-400 w-full p-4 ">
+                  <svg width="100" height="20" className="px-2 ">
                     {captcha.split("").map((char, index) => (
                       <text
                         key={index}
@@ -179,23 +182,27 @@ function Form() {
           استفاده نماييد) | بازيابي كلمه عبور اساتيد | | مشاهده دروس ارائه شده
         </p>
       </div>
-      {loading.status === false ? (
-        ""
-      ) : loading.status === true && loading.value === true ? (
-        <div className="bg-green-800 flex items-center gap-[10rem] absolute bottom-[-9.6rem] z-20 w-full left-0">
-          <p className="bg-green-800 text-white text-sm">1 پیغام</p>
-          <p className="bg-green-800  text-[12px] text-white">
-            ورود با موفقیت انجام شد
-          </p>
-        </div>
-      ) : (
-        <div className="bg-[#8b008b] flex items-center gap-[10rem] absolute bottom-[-9.6rem] z-20 w-full left-0">
-          <p className="bg-[#8b008b] text-white text-sm">1 خطا</p>
-          <p className="bg-[#8b008b]  text-[12px] text-white">
-            کد1 : شناسه کاربري يا گذرواژه اشتباه است.
-          </p>
-        </div>
-      )}
+      <div
+        className="absolute bottom-0 w-[100vw]"
+      >
+        {loading.status === false ? (
+          ""
+        ) : loading.status === true && loading.value === true ? (
+          <div className="bg-green-800 flex items-center gap-[10rem]  z-20 w-full ">
+            <p className="bg-green-800 text-white text-sm">1 پیغام</p>
+            <p className="bg-green-800  text-[12px] text-white">
+              ورود با موفقیت انجام شد
+            </p>
+          </div>
+        ) : (
+          <div className="bg-[#8b008b] flex items-center gap-[10rem]  z-20 w-full ">
+            <p className="bg-[#8b008b] text-white text-sm">1 خطا</p>
+            <p className="bg-[#8b008b]  text-[12px] text-white">
+              کد1 : شناسه کاربري يا گذرواژه اشتباه است.
+            </p>
+          </div>
+        )}
+      </div>
     </>
   );
 }
