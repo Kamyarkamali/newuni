@@ -1,5 +1,11 @@
 import React, { useEffect } from "react";
-import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import useTitle from "./hook/useTitle";
 
 import Form from "./components/Form";
