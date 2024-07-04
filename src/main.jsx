@@ -4,14 +4,14 @@ import App from "./App.jsx";
 import "./index.css";
 
 import Layout from "./layout/Layout.jsx";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <Layout>
         <App />
       </Layout>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );
