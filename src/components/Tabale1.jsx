@@ -138,7 +138,7 @@ const Tabale1 = () => {
             </td>
           </tr>
           <tr className="border-b-[1px] border-l-[1px] border-gray-600">
-            <th className="text-red-600 font-mono">1</th>
+            <th className="text-red-600 font-mono">2</th>
             <td className="">4022</td>
             <td
               onClick={clickHandeler}
