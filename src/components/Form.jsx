@@ -10,7 +10,7 @@ function Form() {
     email: "",
     password: "",
   });
-  console.log(Info)
+  console.log(Info);
   const handleUserChange = (e) => {
     setInfo({
       ...Info,
@@ -21,9 +21,9 @@ function Form() {
   const submitHandeler = (event) => {
     event.preventDefault();
     setloading({ status: true, value: false });
-if(Info.email ==="" || Info.password === ""){
-  alert("شناسه کاربری يا گذرواژه اشتباه است.")
-}
+    if (Info.email === "" || Info.password === "") {
+      alert("شناسه کاربری يا گذرواژه اشتباه است.");
+    }
     if (Info.email === "402461081" && Info.password === "2791025065") {
       const token = btoa(`${Info.email}:${Info.password}`);
       localStorage.setItem("token", token);
@@ -151,7 +151,7 @@ if(Info.email ==="" || Info.password === ""){
               <div className="flex gap-3 justify-center absolute top-[3rem] left-[2rem] mt-9 w-full">
                 <a
                   onClick={alertHandeler}
-                  className="text-[12px] md:ml-4 text-blue-600 border-b-[1px] border-blue-600 "
+                  className="text-[12px] md:ml-4 text-blue-600 border-b-[1px] border-blue-600 w-fit "
                   href="#"
                 >
                   ورود از طریق احراز هویت مرکزی
@@ -182,9 +182,7 @@ if(Info.email ==="" || Info.password === ""){
           استفاده نماييد) | بازيابي كلمه عبور اساتيد | | مشاهده دروس ارائه شده
         </p>
       </div>
-      <div
-        className="absolute bottom-0 w-[100vw]"
-      >
+      <div className="absolute bottom-0 w-[100vw]">
         {loading.status === false ? (
           ""
         ) : loading.status === true && loading.value === true ? (
