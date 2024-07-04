@@ -73,7 +73,7 @@ function Tabale2() {
               14
             </td>
             <td className="  border-l-[1px] border-gray-600 text-center px-1">
-              دیفرانسیل
+              ریاضی 2
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
               3{" "}
@@ -82,7 +82,7 @@ function Tabale2() {
               0{" "}
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              17{" "}
+              15.5
             </td>
             <td className=" border-l-[1px] border-gray-600  px-1">
               تایید نشده{" "}
@@ -96,7 +96,7 @@ function Tabale2() {
           </tr>
           <tr className="border-b-[1px] border-l-[1px] border-gray-600">
             <td className="text-red-500 font-mono border-l-[1px] border-gray-600">
-              1
+              2
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
               087
@@ -134,7 +134,7 @@ function Tabale2() {
           </tr>{" "}
           <tr className="border-b-[1px] border-l-[1px] border-gray-600">
             <td className="text-red-500 font-mono border-l-[1px] border-gray-600">
-              1
+              3
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
               087
@@ -149,7 +149,7 @@ function Tabale2() {
               14
             </td>
             <td className="  border-l-[1px] border-gray-600 text-center px-1">
-              دیفرانسیل
+              زبان انگلیسی
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
               3{" "}
@@ -158,7 +158,7 @@ function Tabale2() {
               0{" "}
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              17{" "}
+              16.5
             </td>
             <td className=" border-l-[1px] border-gray-600  px-1">
               تایید نشده{" "}
@@ -172,7 +172,7 @@ function Tabale2() {
           </tr>{" "}
           <tr className="border-b-[1px] border-l-[1px] border-gray-600">
             <td className="text-red-500 font-mono border-l-[1px] border-gray-600">
-              1
+              4
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
               087
@@ -187,7 +187,7 @@ function Tabale2() {
               14
             </td>
             <td className="  border-l-[1px] border-gray-600 text-center px-1">
-              دیفرانسیل
+              آزمایشگاه
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
               3{" "}
@@ -196,8 +196,7 @@ function Tabale2() {
               0{" "}
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              17{" "}
-            </td>
+16.5            </td>
             <td className=" border-l-[1px] border-gray-600  px-1">
               تایید نشده{" "}
             </td>
@@ -208,126 +207,7 @@ function Tabale2() {
             <td className=" border-l-[1px] border-gray-600  px-1">پایه </td>
             <td className=" border-l-[1px] border-gray-600  px-1">عادی </td>
           </tr>{" "}
-          <tr className="border-b-[1px] border-l-[1px] border-gray-600">
-            <td className="text-red-500 font-mono border-l-[1px] border-gray-600">
-              1
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              087
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              44{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              11
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              14
-            </td>
-            <td className="  border-l-[1px] border-gray-600 text-center px-1">
-              دیفرانسیل
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              3{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              0{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              17{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              تایید نشده{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              اعلام نشده{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">عادی </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">پایه </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">عادی </td>
-          </tr>{" "}
-          <tr className="border-b-[1px] border-l-[1px] border-gray-600">
-            <td className="text-red-500 font-mono border-l-[1px] border-gray-600">
-              1
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              087
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              44{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              11
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              14
-            </td>
-            <td className="  border-l-[1px] border-gray-600 text-center px-1">
-              دیفرانسیل
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              3{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              0{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              17{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              تایید نشده{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              اعلام نشده{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">عادی </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">پایه </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">عادی </td>
-          </tr>
-          <tr className="border-b-[1px] border-l-[1px] border-gray-600">
-            <td className="text-red-500 font-mono border-l-[1px] border-gray-600">
-              1
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              087
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              44{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              11
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-              14
-            </td>
-            <td className="  border-l-[1px] border-gray-600 text-center px-1">
-              دیفرانسیل
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              3{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              0{" "}
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-              17{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              تایید نشده{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              اعلام نشده{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              عادی{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              پایه{" "}
-            </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-              عادی{" "}
-            </td>
-          </tr>
+         
         </tbody>
       </table>
     </div>

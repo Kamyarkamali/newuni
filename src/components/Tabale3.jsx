@@ -17,15 +17,15 @@ function Tabale3() {
             >
               واحد
               <div className="border-b-[1px] border-gray-600 "></div>
-              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-2 ">
+              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-3 ">
                 {" "}
                 گذرانده
               </td>
-              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-2 ">
+              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-3 ">
                 {" "}
                 اخذ شده
               </td>
-              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-2 ">
+              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-5 ">
                 {" "}
                 رد شده
               </td>
@@ -33,7 +33,7 @@ function Tabale3() {
                 {" "}
                 حذف شده
               </td>
-              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-2 ">
+              <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-6 ">
                 {" "}
                 نا تمام
               </td>
@@ -47,7 +47,7 @@ function Tabale3() {
               </td>
               <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-2 ">
                 {" "}
-                خیرایی گذرانده
+                جبرانی گذرانده
               </td>
             </td>
             <td
@@ -56,7 +56,6 @@ function Tabale3() {
             >
               تعداد مشروطی
               <div className="border-b-[1px] border-gray-600 "></div>
-
               <td className="border-l-[1px] border-gray-600 bg-[#ECE9D8] px-4  ">
                 {" "}
                 کل
@@ -70,44 +69,105 @@ function Tabale3() {
         </thead>
         <tbody>
           <tr className="border-b-[1px] border-l-[1px] border-gray-600">
-            <td className=" border-l-[1px] border-gray-600 px-5">
-              ترم
+            <td className=" border-l-[1px] border-gray-600 px-5">ترم</td>
+            <td className=" font-mono border-l-[1px] border-gray-600 font-mono px-7">
+              16.4
             </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+              7.00
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+              20.00
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+              00.00
+            </td>
+            <td className="  border-l-[1px] border-gray-600 font-mono px-1">
+              3.00
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+            00.00
+
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+            10.00
+
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+            00.00
+
+            </td>
+            <td className=" border-l-[1px] border-gray-600 font-mono px-1">            00.00
+            </td>
+            <td className=" border-l-[1px] border-gray-600  px-1">.........</td>
+            <td className=" border-l-[1px] border-gray-600  px-1">
+              ..........
+            </td>
+          </tr>
+          <tr className="border-b-[1px] border-l-[1px] border-gray-600">
+            <td className=" border-l-[1px] border-gray-600 px-5">متوالی</td>
             <td className=" font-mono border-l-[1px] border-gray-600 text-center px-7">
+              16.4
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
               16
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-            16
+              16
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-            16
-            </td>
-            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
-            16
+              16
             </td>
             <td className="  border-l-[1px] border-gray-600 text-center px-1">
-            16
+              16
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-            16
+              16
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-            16
+              16
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
-            16
+              16
             </td>
+            <td className=" border-l-[1px] border-gray-600  px-1">16</td>
+            <td className=" border-l-[1px] border-gray-600  px-1">.........</td>
             <td className=" border-l-[1px] border-gray-600  px-1">
-            16
+              ..........
             </td>
-            <td className=" border-l-[1px] border-gray-600  px-1">
-           .........
+          </tr>{" "}
+          <tr className="border-b-[1px] border-l-[1px] border-gray-600">
+            <td className=" border-l-[1px] border-gray-600 px-5">کل</td>
+            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-7">
+              15.58
             </td>
+            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
+              7.00
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
+              16
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600 text-center px-1">
+              16
+            </td>
+            <td className="  border-l-[1px] border-gray-600 text-center px-1">
+              16
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+              16
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+              16
+            </td>
+            <td className=" font-mono border-l-[1px] border-gray-600  px-1">
+              16
+            </td>
+            <td className=" border-l-[1px] border-gray-600  px-1">16</td>
+            <td className=" border-l-[1px] border-gray-600  px-1">.........</td>
             <td className=" border-l-[1px] border-gray-600  px-1">
-           ..........
+              ..........
             </td>
           </tr>
-         
         </tbody>
       </table>
     </div>
