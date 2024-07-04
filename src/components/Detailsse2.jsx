@@ -4,6 +4,10 @@ import btn2 from "../assets/images/btn2.png";
 import btn3 from "../assets/images/btn3.png";
 import Tabale2 from "./Tabale2";
 
+import baz from "../assets/images/baz.png";
+
+import btns2 from "../assets/images/btns.png";
+
 import tick2 from "../assets/images/tick2.png";
 import Tabale3 from "./Tabale3";
 
@@ -79,13 +83,25 @@ function Detailsse2() {
         <div className="flex flex-col">
           <Tabale2 />
           <Tabale3 />
+
+          <div className="flex justify-center mt-4">
+            <img src={btns2} alt="/" className="w-[120px] cursor-pointer" />
+          </div>
         </div>
       </div>
 
-      {/* <div>center</div> */}
       <div>
-        <img src={tick2} alt="" />
+        <img
+          src={baz}
+          alt="/"
+          className="absolute bottom-[-2.2rem] right-3 w-[50px]"
+        />
       </div>
+      <div>
+        <img src={tick2} alt="/" />
+      </div>
+
+      <div className="absolute bottom-[-6.9rem] h-[30px] bg-[#F1F1F1] w-full p-1"></div>
     </div>
   );
 }

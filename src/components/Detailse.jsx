@@ -17,6 +17,7 @@ import pey7 from "../assets/images/pey7.png";
 
 import pey8 from "../assets/images/pey8.png";
 import pey10 from "../assets/images/pey10.png";
+import batns from "../assets/images/btns2.png";
 
 import pey11 from "../assets/images/pey11.png";
 
@@ -29,16 +30,7 @@ function Detailse() {
     <div className="flex justify-between max-w-[1400px] p-2 mx-auto">
       <div className="relative">
         <div className="flex items-center text-[10px] gap-2 absolute bottom-[18rem]">
-          <img src={arrowup} alt="/" className="w-[10px]" />
-          <button className="border-[1px] w-[130px] h-[30px] shadow-sm p-1 rounded-md">
-            منوی کاربری
-          </button>
-          <button className="border-[1px] w-[130px] h-[30px] shadow-sm p-1 rounded-md">
-            اطلاعات جامع دانشجو
-          </button>
-          <button className="border-t-[3px] shadow-md border-yellow-400 w-[130px] h-[30px] rounded-md">
-            اطلاعات جامع دانشجو[2]
-          </button>
+          <img src={batns} alt="" className="cursor-pointer" />
         </div>
         <div className="flex items-center gap-3 border-t-[1px] p-2 border-gray-400 text-sm mt-4">
           <button className="border-[1px] p-1 border-gray-500 shadow-sm shadow-gray-300 rounded-md">
@@ -149,7 +141,7 @@ function Detailse() {
         <img src={tick2} alt="/" />
       </div>
 
-      <div className="absolute flex items-center gap-3 bottom-[-2rem]  right-4 border-[1px] w-fit border-gray-700">
+      <div className="absolute flex items-center gap-3 bottom-[1.7rem]  right-4 border-[1px] w-fit border-gray-700">
         <div className="flex items-center text-[12px]">
           <p>معدل دانشگاه:</p>
           <p>14.80</p>
@@ -166,7 +158,7 @@ function Detailse() {
         </div>
       </div>
 
-      <div className="absolute flex gap-3 items-center bottom-[-2.4rem] right-[22rem]">
+      <div className="absolute flex gap-3 items-center bottom-[1.4rem] right-[22rem]">
         <img
           src={pey}
           alt="/"
@@ -199,9 +191,9 @@ function Detailse() {
         />
       </div>
 
-      <div className="absolute bg-[#ECE9D8] bottom-[-8rem] z-30 flex items-center gap-3">
-        <img className="w-[50px] h-[23px]" src={pey8} alt="/" />
-        <img className="w-[52px] h-[20px]" src={pey10} alt="/" />
+      <div className="absolute bottom-[-7rem] right-3 z-30 flex items-center gap-3">
+        <img className="w-[50px]  h-[23px]" src={pey8} alt="/" />
+        <img className="w-[52px]  h-[20px]" src={pey10} alt="/" />
       </div>
 
       <div className="bottom-[-8rem] z-20 absolute left-4">

@@ -23,6 +23,8 @@ function App() {
     }
   }, [location, navigate]);
 
+  const isDetailsePage = location.pathname.includes("detailse");
+
   return (
     <div className="flex flex-col h-screen">
       <Routes>
@@ -33,9 +35,9 @@ function App() {
             <ProtectedRoute
               element={() => (
                 <>
-                  <HeaderSaidbar />
+                  {!isDetailsePage && <HeaderSaidbar />}
                   <div className="flex flex-1">
-                    <Saidbar />
+                    {!isDetailsePage && <Saidbar />}
                     <main className="flex-1 p-4">
                       <Routes>
                         <Route path="/" element={<MainSaidbar />} />
