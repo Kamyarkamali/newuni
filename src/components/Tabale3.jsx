@@ -70,7 +70,7 @@ function Tabale3() {
         <tbody>
           <tr className="border-b-[1px] border-l-[1px] border-gray-600">
             <td className=" border-l-[1px] border-gray-600 px-5">ترم</td>
-            <td className=" font-mono border-l-[1px] border-gray-600 font-mono px-7">
+            <td className=" font-mono border-l-[1px] border-gray-600  px-7">
               16.4
             </td>
             <td className=" font-mono border-l-[1px] border-gray-600  px-1">
